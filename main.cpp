@@ -43,13 +43,13 @@ int main() {
         (float)offset-5, (float)cellSize*cellCount+10,
         (float)cellSize*cellCount+10}, 5, darkGreen);
 
-        DrawText("HALASSSSS", offset + 250, 22, 50, BLACK);
+        DrawText("Snake Game", offset + 250, 22, 50, BLACK);
 
-        DrawText(TextFormat("NUMBER ONE : %i", game.score),offset -5, offset + cellSize * cellCount+10, 40, BLACK);
+        DrawText(TextFormat("Score: %i", game.score),offset -5, offset + cellSize * cellCount+10, 40, BLACK);
 
-        DrawText("HOLD YOUR LIFE", offset + 450, offset + cellSize * cellCount+10, 20, BLACK );
+        DrawText("Hold Space To Accelerate", offset + 450, offset + cellSize * cellCount+10, 20, BLACK );
 
-        DrawText("USE BRAIN TO THINK", offset + 450, offset + cellSize * cellCount+40, 20, BLACK );
+        DrawText("Use Arrow Keys To Move", offset + 450, offset + cellSize * cellCount+40, 20, BLACK );
 
         game.draw();
         
